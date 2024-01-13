@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#2597a1"
+        android:elevation="10dp"
+        android:minHeight="?attr/actionBarSize"
+        android:textAlignment="textStart"
+        android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:title="Sign Up"
+        app:titleTextColor="#fff" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginRight="8dp"
+        android:src="@drawable/back1"
+        app:fab_colorNormal="#f1db55"
+        app:fab_colorPressed="#f2ec42"
+        app:fab_colorRipple="#99a47e7e"
+        app:fab_hideAnimation="@anim/fab_scale_down"
+        app:fab_label="More"
+        app:fab_progress="0"
+        app:fab_progress_backgroundColor="#4D000000"
+        app:fab_progress_color="#FF009688"
+        app:fab_progress_indeterminate="false"
+        app:fab_progress_max="100"
+        app:fab_progress_showBackground="true"
+        app:fab_shadowColor="#484737"
+        app:fab_shadowRadius="4dp"
+        app:fab_shadowXOffset="1dp"
+        app:fab_shadowYOffset="3dp"
+        app:fab_showAnimation="@anim/fab_scale_up"
+        app:fab_showShadow="true"
+        app:fab_size="normal" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:src="@drawable/signup" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="80dp"
+            android:hint="username" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:hint="password"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/rePassword"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:hint="re-enter password"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/backupPin"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:hint="enter backup PIN"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp">
+
+        <Button
+            android:id="@+id/btnCancelUp"
+            android:layout_width="146dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="10dp"
+            android:background="#3c9799"
+            android:text="CANCEL"
+            android:textColor="#fff" />
+
+
+        <Button
+            android:id="@+id/btnSaveUp"
+            android:layout_width="146dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="30dp"
+            android:background="#40a2a4"
+            android:text="SAVE"
+            android:textColor="#fff" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

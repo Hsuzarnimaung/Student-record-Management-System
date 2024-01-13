@@ -1,0 +1,79 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        tools:context="com.learn2crack.myapplication.MainActivity">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true">
+
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/home_toolbar_style"
+                android:elevation="6dp"
+                android:fitsSystemWindows="true"
+                android:minHeight="?attr/actionBarSize"
+                app:titleTextColor="@color/White" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_marginTop="25dp"
+                android:src="@drawable/college2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="180dp"
+                android:layout_marginTop="80dp"
+                android:paddingLeft="120dp"
+                android:text="Welcome to Student Record\n           Management "
+                android:textColor="#fff"
+                android:textSize="30dp" />
+
+
+        </android.support.design.widget.AppBarLayout>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navigation_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#fff"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/menu_navigation" />
+
+
+</android.support.v4.widget.DrawerLayout>
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/formfill"
+            android:title="Form Fill"
+            android:icon="@drawable/formfill"/>
+
+        <item
+            android:title="Record"
+            android:id="@+id/itemRecord"
+            android:icon="@drawable/record1">
+        </item>
+
+        <item
+            android:title="Class Attendance"
+            android:id="@+id/itemClass"
+            android:icon="@drawable/assignment">
+        </item>
+
+        <item
+            android:id="@+id/timeTable"
+            android:title="Time Table"
+            android:icon="@drawable/clock"/>
+
+        <item
+            android:title="More..."/>
+
+        <item
+            android:id="@+id/shortcut"
+            android:title="Computer Shortcut Key"
+            android:icon="@drawable/keyshort"
+            />
+        <item
+            android:id="@+id/cuInformation"
+            android:title="CU Information"
+            android:icon="@drawable/info1"/>
+
+        <item
+            android:id="@+id/logout"
+            android:title="Logout"
+            android:icon="@drawable/ic_exit"/>
+
+
+    </group>
+</menu>

@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical"
+    android:weightSum="30">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2.5"
+                android:text="Academic Year:"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/listacademic"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2.5"
+                android:text="2015-2016"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2.5"
+                android:text="Major:"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/listmajor"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2.5"
+                android:text="CS"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2.5"
+                android:text="Class:"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/listclass"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2.5"
+                android:text="First Year"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2.5"
+                android:text="Section:"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/listsection"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2.5"
+                android:text="A"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <!--  <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:orientation="vertical"
+           android:layout_marginLeft="140dp"
+           android:layout_marginBottom="20dp"
+           android:weightSum="10">
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:orientation="horizontal"
+               android:weightSum="10">
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_weight="2.5"
+                   android:text="Academic Year:"
+                   android:textStyle="bold"
+                   android:textSize="18dp" />
+
+               <TextView
+                   android:id="@+id/listacademic"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_weight="2.5"
+                   android:text="2015-2016"
+                   android:textSize="18dp" />
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_weight="2.5"
+                   android:textStyle="bold"
+                   android:text="Major:"
+                   android:textSize="18dp" />
+
+               <TextView
+                   android:id="@+id/listmajor"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_weight="2.5"
+                   android:text="CS"
+                   android:textSize="18dp" />
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:weightSum="10"
+               android:orientation="horizontal">
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:text="Class:"
+                   android:layout_weight="2.5"
+                   android:textStyle="bold"
+                   android:textSize="18dp" />
+
+               <TextView
+                   android:id="@+id/listclass"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_weight="2.5"
+                   android:text="First Year"
+                   android:textSize="18dp" />
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:text="Section:"
+                   android:layout_weight="2.5"
+                   android:textStyle="bold"
+                   android:textSize="18dp" />
+
+               <TextView
+                   android:id="@+id/listsection"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_weight="2.5"
+                   android:text="A"
+                   android:textSize="18dp" />
+
+           </LinearLayout>
+
+       </LinearLayout>-->
+
+
+    <TableLayout
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Timetable"
+            android:textSize="20dp" />
+
+        <TableRow
+            android:id="@+id/tr_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/table_row_bg"
+            android:weightSum="8">
+
+            <TextView
+                android:id="@+id/tv_day"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_bg"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:text="Day"
+                android:textAlignment="center"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/tv_time1"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_bg"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:text="08:30-09:20"
+                android:textAlignment="center"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/tv_time2"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_bg"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:text="09:25-10:15"
+                android:textAlignment="center"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/tv_time3"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_bg"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:text="10:20-11:10"
+                android:textAlignment="center"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/tv_time4"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_bg"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:text="12:00-12:50"
+                android:textAlignment="center"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/tv_time5"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_bg"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:text="12:55-01:45"
+                android:textAlignment="center"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/tv_time6"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_bg"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:text="01:50-02:40"
+                android:textAlignment="center"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/tv_time7"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_bg"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:text="02:45-03:35"
+                android:textAlignment="center"
+                android:textSize="18dp" />
+
+        </TableRow>
+    </TableLayout>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+    </ListView>
+</LinearLayout>
+

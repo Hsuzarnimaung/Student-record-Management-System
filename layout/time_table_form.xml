@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginTop="20dp"
+    android:weightSum="50">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="30dp"
+            android:orientation="vertical"
+            android:weightSum="20"
+            android:layout_marginRight="30dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="50dp"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp"
+    android:paddingBottom="50dp"
+    android:orientation="vertical"
+    android:layout_weight="20"
+    android:weightSum="20"
+    android:background="@drawable/table_row_bg">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="0.5"
+        android:layout_marginBottom="10dp"
+        android:weightSum="10">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="ACADEMIC YEAR"
+            android:layout_weight="3"
+            android:textSize="18dp" />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/selectYear"
+            android:layout_weight="7"
+            android:spinnerMode="dropdown"
+            android:entries="@array/array_year" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="0.5"
+        android:layout_marginBottom="10dp"
+        android:weightSum="10">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="CLASS"
+            android:layout_weight="3"
+            android:textSize="18dp" />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/selectClass"
+            android:layout_weight="7"
+            android:spinnerMode="dropdown"
+            android:entries="@array/array_class" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="0.5"
+        android:layout_marginBottom="10dp"
+        android:weightSum="10">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="MAJOR"
+            android:layout_weight="3"
+            android:textSize="18dp" />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/selectMajor"
+            android:layout_weight="7"
+            android:spinnerMode="dropdown"
+            android:entries="@array/array_major" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="0.5"
+        android:layout_marginBottom="10dp"
+        android:weightSum="10">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="SECTION"
+            android:layout_weight="3"
+            android:textSize="18dp" />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/selectSection"
+            android:layout_weight="7"
+            android:spinnerMode="dropdown"
+            android:entries="@array/array_section" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="0.5"
+        android:layout_marginBottom="10dp"
+        android:weightSum="10">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="DAY"
+            android:layout_weight="3"
+            android:textSize="18dp" />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/selectDay"
+            android:layout_weight="7"
+            android:spinnerMode="dropdown"
+            android:entries="@array/array_day" />
+
+    </LinearLayout>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_weight="30"
+        android:weightSum="6">
+
+      <Button
+          android:id="@+id/btnCancel"
+          android:onClick="OnClickCancel"
+          android:layout_width="wrap_content"
+          android:layout_height="50dp"
+          android:layout_weight="3"
+          android:layout_marginLeft="180dp"
+          android:background="#cc9e6315"
+          android:text="Cancel"/>
+        <Button
+            android:id="@+id/btnOk"
+            android:onClick="OnClickOk"
+           android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="3"
+            android:layout_marginRight="180dp"
+            android:background="#cc1a7467"
+            android:text="OK"/>
+    </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

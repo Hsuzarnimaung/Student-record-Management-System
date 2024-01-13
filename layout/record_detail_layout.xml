@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#30baab"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_person" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="Student Id "
+                android:textColor="#000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="Student Name "
+                android:textColor="#000"
+                android:textSize="18dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="Roll Number  "
+                android:textColor="#000"
+                android:textSize="18dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="Gender "
+                android:textColor="#000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="Date of Birth "
+                android:textColor="#000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="Father Name "
+                android:textColor="#000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="Class "
+                android:textColor="#000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="Major "
+                android:textColor="#000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="Section "
+                android:textColor="#000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="Academic Year "
+                android:textColor="#000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="Phone Number "
+                android:textColor="#000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="Email "
+                android:textColor="#000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="Address "
+                android:textColor="#000"
+                android:textSize="18dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:paddingLeft="40dp">
+
+            <TextView
+                android:id="@+id/lblid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="111"
+                android:textColor="#000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/lblname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="Ma Ma"
+                android:textColor="#000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/lblroll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="1"
+                android:textColor="#000"
+                android:textSize="18dp" />
+
+
+            <TextView
+                android:id="@+id/lblgender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="Female"
+                android:textColor="#000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/lbldob"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="19/4/1998"
+                android:textColor="#000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/father"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="First Year"
+                android:textColor="#000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/lblclass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="Ma Ma"
+                android:textColor="#000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/lblmajor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="CS"
+                android:textColor="#000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/lblsection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="A"
+                android:textColor="#000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/lblacademic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="2015_2016"
+                android:textColor="#000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/lblphone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="09253221679"
+                android:textColor="#000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/lblemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="thaeoo@email.com"
+                android:textColor="#000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/lbladdress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:paddingTop="10dp"
+                android:text="Kalay"
+                android:textColor="#000"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:paddingLeft="30dp"
+        android:text="Phone"
+        android:textColor="#fff"
+        android:textSize="26dp" />
+
+    <ImageView
+        android:id="@+id/iv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="30dp"
+                android:text="Mobile"
+                android:textColor="#fff"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/detailphone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="150dp"
+                android:paddingLeft="30dp"
+                android:text="09253221679"
+                android:textColor="#fff"
+                android:textSize="18dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="120dp">
+
+            <ImageView
+                android:id="@+id/imageCall"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_marginRight="10dp"
+                android:onClick="onClickCall"
+                android:src="@drawable/formfill" />
+
+            <ImageView
+                android:id="@+id/imageMessage"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:onClick="onClickMessage"
+                android:src="@drawable/ic_home" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

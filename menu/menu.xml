@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:xmls="http://schemas.android.com/tools"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/action_search"
+        app:actionViewClass="android.widget.SearchView"
+        android:icon="@drawable/ic_action_search"
+        app:showAsAction="ifRoom"
+        android:title="Search" />
+
+    <item
+        android:id="@+id/delete"
+        android:icon="@drawable/delete4"
+        app:showAsAction="ifRoom"
+        android:title="Delete"/>
+
+    <item
+        android:id="@+id/addData"
+       app:showAsAction="ifRoom"
+        android:title="Add"/>
+
+</menu>

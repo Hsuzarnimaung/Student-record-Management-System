@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/t1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:paddingTop="10dp"
+    android:textAlignment="center"
+    android:weightSum="1">
+
+    <TableRow
+        android:id="@+id/tr_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/table_row_bg"
+        android:weightSum="8">
+
+        <TextView
+            android:id="@+id/result_day"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/table_cell_bg"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:text="MON"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/result_sub1"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/table_cell_bg"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:text="201"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/result_sub2"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/table_cell_bg"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:text="202"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/result_sub3"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/table_cell_bg"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:text="203"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/result_sub4"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/table_cell_bg"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:text="205"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/result_sub5"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/table_cell_bg"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:text="Eng"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/result_sub6"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/table_cell_bg"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:text="206"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/result_sub7"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/table_cell_bg"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:text="206"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </TableRow>
+</TableLayout>

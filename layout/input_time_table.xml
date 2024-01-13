@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:weightSum="5">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingTop="10dp"
+            android:weightSum="5">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="22dp"
+                android:layout_weight="1"
+                android:text="Academic Year:"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="22dp"
+                android:layout_weight="1"
+                android:text="Class:"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="22dp"
+                android:layout_weight="1"
+                android:text="Major:"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="22dp"
+                android:layout_weight="1"
+                android:text="Section:"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Day:"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:weightSum="5">
+
+            <Spinner
+                android:id="@+id/spinnerYear"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:entries="@array/array_year1"
+                android:paddingBottom="10dp"
+                android:spinnerMode="dropdown" />
+
+            <Spinner
+                android:id="@+id/spinnerClass"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+
+                android:entries="@array/array_class1"
+                android:paddingBottom="10dp"
+                android:spinnerMode="dropdown" />
+
+            <Spinner
+                android:id="@+id/spinnerMajor"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:entries="@array/array_major1"
+                android:paddingBottom="10dp"
+                android:spinnerMode="dropdown" />
+
+            <Spinner
+                android:id="@+id/spinnerSection"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:entries="@array/array_section1"
+                android:paddingBottom="10dp"
+                android:spinnerMode="dropdown" />
+
+            <Spinner
+                android:id="@+id/spinnerDay"
+                android:layout_width="250dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:entries="@array/array_day1"
+                android:paddingBottom="10dp"
+                android:spinnerMode="dropdown" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TableLayout
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@android:color/white"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Timetable"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TableRow
+            android:id="@+id/tr_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/table_row_bg"
+            android:weightSum="8">
+
+            <TextView
+                android:id="@+id/tv_day"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_bg"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:text="Day"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_time1"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_bg"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:text="08:30-09:20"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_time2"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_bg"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:text="09:25-10:15"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_time3"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_bg"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:text="10:20-11:10"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_time4"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_bg"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:text="12:00-12:50"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_time5"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_bg"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:text="12:55-01:45"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_time6"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_bg"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:text="01:50-02:40"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_time7"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_bg"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:text="02:45-03:35"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/table_row_bg"
+            android:weightSum="8">
+
+            <EditText
+                android:id="@+id/day1"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_bg"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/time1"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_bg"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/time2"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_bg"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/time3"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_bg"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/time4"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_bg"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/time5"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_bg"
+                android:paddingRight="15dp"
+                android:paddingTop="10dp"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/time6"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_bg"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/time7"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/table_cell_bg"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/SaveButton"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="#cc1b6169"
+        android:text="Add"
+        android:textColor="#fff" />
+</LinearLayout>
